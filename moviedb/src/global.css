@@ -1,0 +1,31 @@
+/* ==============
+  Resets
+  =============== */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+}
+
+/* ==============
+  Global
+  =============== */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+	padding: 0 1rem;
+}
